@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".demoquizactivity">
+
+    <TextView
+        android:id="@+id/quesiton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="What is the capital of Mars?"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option1"
+        android:layout_below="@+id/quesiton"
+        android:textColor="@color/black"
+        android:text="Uranus"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:padding = "10dp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option2"
+        android:layout_below="@+id/option1"
+        android:textColor="@color/black"
+        android:text="Neptune"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:padding = "10dp"
+        android:background = "@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option3"
+        android:layout_below="@+id/option2"
+        android:textColor="@color/black"
+        android:text="Pluto"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:padding = "10dp"
+        android:background = "@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/option4"
+        android:layout_below="@+id/option3"
+        android:textColor="@color/black"
+        android:text="Undecided"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:padding = "10dp"
+        android:background = "@color/white"
+        />
+
+
+
+
+</RelativeLayout>
